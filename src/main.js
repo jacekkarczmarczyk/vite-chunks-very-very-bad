@@ -5,7 +5,12 @@ import { createRouter, createWebHashHistory } from "vue-router";
 createApp(App).use(createRouter({
     history: createWebHashHistory(),
     routes: [{
-        name: 'Home',
         component: () => import('./Home.vue'),
+    }, {
+        component: () => import('./View1.vue'),
+    }, {
+        component: () => import('./View2.vue'),
+    }, {
+        component: () => import('./View3.vue'),
     }],
 })).mount('#app')
