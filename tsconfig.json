@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noUncheckedIndexedAccess": false,
+    "allowSyntheticDefaultImports": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "vuetify",
+      "node",
+      "vite/client",
+      "unplugin-vue2-script-setup/types"
+    ],
+  },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "build/**/*.js",
+    ".eslintrc.js",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2
+  }
+}
