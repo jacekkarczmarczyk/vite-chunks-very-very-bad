@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpack_boilerplate=self.webpackChunkwebpack_boilerplate||[]).push([[839],{839:(e,l,o)=>{function s(){console.log("this is a log")}o.r(l),o.d(l,{log:()=>s})}}]);

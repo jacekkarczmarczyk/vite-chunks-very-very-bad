@@ -1,3 +1,3 @@
-import { log } from './util';
-
-log();
+(async () => {
+  (await import('./util')).log();
+});
