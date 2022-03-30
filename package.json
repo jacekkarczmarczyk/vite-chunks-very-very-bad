@@ -18,9 +18,7 @@
     "slownie": "^1.0.1",
     "vue": "^2.6.11",
     "vue-clipboard2": "^0.3.0",
-    "vue-router": "^3.0.1",
-    "vuetify": "^2.3.0-beta.2",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.10",
@@ -30,10 +28,10 @@
     "eslint-config-jkarczm": "5.0.0-beta.34",
     "sass": "~1.32.0",
     "typescript": "~4.4",
-    "unplugin-vue-components": "^0.17.13",
-    "unplugin-vue2-script-setup": "^0.9.1",
+    "unplugin-vue-components": "^0.18.5",
+    "unplugin-vue2-script-setup": "^0.10.1",
     "vite": "^2.7.2",
-    "vite-plugin-checker": "^0.3.4",
+    "vite-plugin-checker": "^0.4.4",
     "vite-plugin-vue2": "^1.9.2",
     "vue-template-compiler": "^2.6.11",
     "vue-tsc": "^0.30.6"

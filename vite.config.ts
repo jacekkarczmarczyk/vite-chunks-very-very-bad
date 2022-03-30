@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig, splitVendorChunkPlugin } from 'vite';
 import { createVuePlugin } from 'vite-plugin-vue2';
 
 export default defineConfig({
@@ -16,5 +16,6 @@ export default defineConfig({
   },
   plugins: [
     createVuePlugin(),
+    splitVendorChunkPlugin(),
   ],
 });
