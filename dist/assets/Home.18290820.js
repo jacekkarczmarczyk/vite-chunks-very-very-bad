@@ -1,0 +1,1 @@
+import{n as r}from"./index.c1fd3148.js";import"./env.a7362817.js";import"./vendor.fe44d1bb.js";var _=function(){var t=this,e=t.$createElement,o=t._self._c||e;return o("div",[t._v("Home")])},s=[];const c={},n={};var i=r(c,_,s,!1,l,null,null,null);function l(t){for(let e in n)this[e]=n[e]}const v=function(){return i.exports}();export{v as default};
