@@ -1,5 +1,6 @@
 import { defineConfig, splitVendorChunkPlugin } from 'vite';
 import { createVuePlugin } from 'vite-plugin-vue2';
+import ImportmapPlugin from 'importmap-plugin';
 
 export default defineConfig({
   define: {
@@ -8,6 +9,16 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
+        format: 'system',
+        entryFileNames: 'app/index.js',
+        chunkFileNames: 'chunks/[name].js',
+        plugins: [
+          ImportmapPlugin({
+            base: '/',
+            external: false,
+            indexHtml: 'index.html',
+          }),
+        ],
         manualChunks: id => {
           if (id.includes('src/env.ts')) return 'env';
         },
